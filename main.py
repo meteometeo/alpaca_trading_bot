@@ -9,7 +9,7 @@ BASE_URL = 'https://paper-api.alpaca.markets' # This is the base URL for paper t
 api = tradeapi.REST(key_id= PUB_KEY, secret_key=SEC_KEY, base_url=BASE_URL) # For real trading, don't enter a base_url
 
 
-symb = '' Enter your stock symbol here 
+symb = '' # Enter your stock symbol here 
 pos_held = False
 
 while True:
