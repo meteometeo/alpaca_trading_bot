@@ -1,16 +1,15 @@
 import alpaca_trade_api as tradeapi
 import numpy as np
 import time
-from config import SEC_KEY, PUB_KEY, symb
 
-SEC_KEY = SEC_KEY # Enter Your Secret Key Here
-PUB_KEY = PUB_KEY # Enter Your Public Key Here
+SEC_KEY = '' # Enter Your Secret Key Here
+PUB_KEY = '' # Enter Your Public Key Here
 symb = symb # Enter your stock symbol
 BASE_URL = 'https://paper-api.alpaca.markets' # This is the base URL for paper trading
 api = tradeapi.REST(key_id= PUB_KEY, secret_key=SEC_KEY, base_url=BASE_URL) # For real trading, don't enter a base_url
 
 
-symb = symb 
+symb = '' Enter your stock symbol here 
 pos_held = False
 
 while True:
